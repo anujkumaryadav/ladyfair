@@ -1,4 +1,5 @@
 import React from 'react'
+import Team from '../../components/core/Team'
 
 const Aboutus = () => {
 
@@ -25,7 +26,9 @@ const Aboutus = () => {
             <br/>
             <p className='text-alata font-normal text-2xl text-justify'>Legal Name of Ladyfair brand is LADYFARE BEAUTY CONCEPTS PRIVATE LIMITED.</p>
         </div>
-    </div>
+      </div>
+
+      <Team/>
 
     {/* <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
